@@ -8,7 +8,7 @@ export default function App() {
     console.log("Clicked");
   }
 
-  const [darkMode, setdarkMode] = React.useState("");
+  const [darkMode, setdarkMode] = React.useState(true);
 
   return (
     <div className="container">
